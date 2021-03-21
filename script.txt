@@ -1,0 +1,10 @@
+- i created a model to simulate surface level objects and how they move with currents
+- pulled a bunch of data from forecasting agencies for wind vectors at 10m elevation across the pacific ocean
+- used the to influence and create a vector field which is an abstractions of the surface level currents in the pacific
+- having done this i next created an interface to spawn new objects at given lat long with damping variable to emulate the factors that determine how fast object can move
+- i then created an inverative map to display this data as seen here
+- as you can see the 5 trash deposit placed 100 of miles apart seem to end up in whirpools which provide an ideal target for drone deployment
+- the drone on the map is dispatched from the coast of hawai and you can see purly following ocean currents, the drone ends up in one of these whirpools
+- if the project ever came to fruition, then all the drones in the fleet would be able to relay information to the model providing more accurate data than the standard available online
+this would make the model far more accurate as it would have several points to track and update the vector field accordingly
+- when the drone gets close we need computer vision to detect the trash and moniter the nets capacity, so ill hand over to mutalib to explain all that
