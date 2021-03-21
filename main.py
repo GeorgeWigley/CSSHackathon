@@ -8,7 +8,6 @@ import random as rand
 ONE_DEGREE_Y = 111111    # 111.111km is roughly 1 degree north in longitude, for latitude it is 111,111*cos(lat)
 OCEAN_VECTOR_FROM_WIND = 1   # how much wind vectors affect current vectors
 
-
 class Object:
     currentlat = 0
     currentlon = 0
