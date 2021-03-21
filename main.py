@@ -5,9 +5,6 @@ import pandas as pd
 import numpy as np
 import random as rand
 
-
-PLOTLY_API_TOKEN = "sk.eyJ1IjoiZ2Vvcmdld2lnbGV5IiwiYSI6ImNrbWlwbGJpNTBlejAzMG1rODR3ZWF4NzUifQ.GgfusEAZP7oK6CRnvKTG3g"
-
 ONE_DEGREE_Y = 111111    # 111.111km is roughly 1 degree north in longitude, for latitude it is 111,111*cos(lat)
 OCEAN_VECTOR_FROM_WIND = 1   # how much wind vectors affect current vectors
 
